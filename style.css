@@ -1,0 +1,25 @@
+body{
+  background: #222222;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-3-w{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+button{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.greenBtn{
+  background: #00ff00;
+}
+
+.redBtn{
+  background: #ff0000;
+}
